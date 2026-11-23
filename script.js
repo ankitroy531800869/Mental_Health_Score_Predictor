@@ -1,5 +1,4 @@
-// Uvicorn serves plain HTTP unless you start it with SSL certificates.
-const API_BASE = "http://127.0.0.1:2200";
+const API_BASE = "https://mental-health-score-predictor-h9ak.onrender.com";
 
 const $ = id => document.getElementById(id);
 const form = $("form"), result = $("result"), arc = $("arc");
