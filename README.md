@@ -1,6 +1,6 @@
 <div align="center">
 
-#  Student Mental Health Score Predictor
+# Student Mental Health Score Predictor
 
 ### A Machine Learning Based Web Application for Predicting Student Mental Health Scores
 
@@ -42,14 +42,16 @@ The application combines a trained Machine Learning model with a FastAPI backend
 
 ## Technology Stack
 
- Programming Language : Python 
- Frontend : HTML, CSS, JavaScript
- Backend : FastAPI, Uvicorn
- Machine Learning : Scikit-learn
- Data Processing : Pandas, NumPy
- Model Persistence : Joblib
- Development Environment : Jupyter Notebook
- API Communication : REST API, JSON
+| Component | Technologies |
+|---|---|
+| Programming Language | Python |
+| Frontend | HTML, CSS, JavaScript |
+| Backend | FastAPI, Uvicorn |
+| Machine Learning | Scikit-learn |
+| Data Processing | Pandas, NumPy |
+| Model Persistence | Joblib |
+| Development Environment | Jupyter Notebook |
+| API Communication | REST API, JSON |
 
 ## Project Architecture
 
@@ -88,18 +90,20 @@ flowchart TD
 
 The model considers the following input variables:
 
- Age : Student's age
- Gender : Student's gender
- Country : Country of residence
- Academic Level : High School, Undergraduate, or Graduate
- Most Used Platform : Primary social media platform
- Purpose of Use : Entertainment, Education, Networking, or News
- Daily Usage : Average daily social media usage in hours
- Daily Unlocks : Number of phone unlocks per day
- Study Hours : Average daily study hours
- Physical Activity : Daily physical activity in hours
- Sleep Hours : Average sleep duration per night
- Stress Level : Low, Medium, High, or Very High
+| Feature | Description |
+|---|---|
+| Age | Student's age |
+| Gender | Student's gender |
+| Country | Country of residence |
+| Academic Level | High School, Undergraduate, or Graduate |
+| Most Used Platform | Primary social media platform |
+| Purpose of Use | Entertainment, Education, Networking, or News |
+| Daily Usage | Average daily social media usage in hours |
+| Daily Unlocks | Number of phone unlocks per day |
+| Study Hours | Average daily study hours |
+| Physical Activity | Daily physical activity in hours |
+| Sleep Hours | Average sleep duration per night |
+| Stress Level | Low, Medium, High, or Very High |
 
 ## Machine Learning Workflow
 
@@ -243,14 +247,14 @@ Open the following address in your browser:
 
 **Important:** Keep both the frontend server and FastAPI backend running while using the application.
 
-## 🔌 API Documentation
+## API Documentation
 
 The backend exposes an interactive API documentation interface through FastAPI.
 
 | Documentation | URL |
-
-| Swagger UI    | http://127.0.0.1:2200/docs |
-| ReDoc         | http://127.0.0.1:2200/redoc |
+|---|---|
+| Swagger UI | http://127.0.0.1:2200/docs |
+| ReDoc | http://127.0.0.1:2200/redoc |
 
 ### Prediction Endpoint
 
@@ -285,7 +289,7 @@ The backend exposes an interactive API documentation interface through FastAPI.
 
 *The response above is an illustrative example.*
 
-## 🔮 Future Improvements
+## Future Improvements
 
 Potential improvements for future versions include:
 
@@ -297,7 +301,7 @@ Potential improvements for future versions include:
 - Deployment using cloud infrastructure.
 - More comprehensive model evaluation and validation.
 
-## 👨‍💻 Author
+## Author
 
 **Ankit Roy**
 
